@@ -1,0 +1,80 @@
+.buttons:hover,
+.buttons:active {
+    background-color: rgba(206, 160, 100, 0.925);
+    color: rgb(220, 228, 217);
+}
+.media {
+    min-width: 30px;
+    max-width: 60px;
+    min-height: 60%;
+    max-height: 90%;
+    /* border: 1px solid red; */
+    color: white;
+    position: absolute;
+    right: 5px;
+    padding-right: 20px;
+}
+.media ul li {
+    margin: 25px;
+}
+i:hover {
+    box-shadow: 3px 0px 3px 0px #e6e6e6;
+}
+.media i {
+    color: white;
+}
+#buttons:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(207, 221, 8, 0.35);
+}
+.nav-item:hover{
+    font-weight: bolder;
+    font-size: larger;
+    /* transform: scale(1.01); */
+    cursor: pointer;
+    color: #ff7f00;
+}
+
+.skills{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 2%;
+    color: #b2b2b2;
+}
+
+.card-book{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px;
+}
+.jobs-holder{
+    width: 370px;
+    min-height: 220px;
+    text-align: center;
+    /* border: 1px solid #474646; */
+}
+.job-card{
+    width: 70px;
+    height: 80px;
+    box-shadow: 20px 0px 20px 6px #e6e6e6;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 0px 0px 25px 0;
+
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    color: rgb(13, 100, 13);
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.job-card img{
+    width: 40px;
+    height: 40px;
+    color: blue;
+}
+
